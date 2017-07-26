@@ -1,12 +1,12 @@
 console.log('script.js has been sourced in');
 
+var canin = {
+    name: 'Canin',
+    favoriteAnimal: 'Uniflitten'
+}
 //[name, favoriteAnimal]
 var people = [
-    {
-        name: 'Canin',
-        favoriteAnimal: 'Uniflitten'
-
-    },
+    canin,
     {
         name: 'Charly',
         favoriteAnimal: 'Angler Fish'
@@ -23,6 +23,8 @@ var people = [
 
 console.log(people);
 
+// canin = "potato salad"  **changes by value
+// canin.favoriteAnimal = "potato salad" **changes by reference
 // log {person}'s favorite animal is the [favoriteAnimal]
 // log for Canin: Canin's favorite animal is the Uniflitten
 
